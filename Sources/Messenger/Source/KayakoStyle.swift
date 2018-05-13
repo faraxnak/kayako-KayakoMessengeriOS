@@ -39,7 +39,7 @@ public enum ColorPallete {
 	backgroundFillColor = UIColor(red:0.96, green:0.96, blue:0.96, alpha:1.00),					//#838D94
 	secondaryBorderColor = UIColor(red:0.92, green:0.93, blue:0.94, alpha:1.00),
 	primaryBorderColor = UIColor(red:0.82, green:0.84, blue:0.84, alpha:1.00),					//Zumthor or D1D5D7
-	primaryBrandingColor = UIColor(red:0.95, green:0.44, blue:0.25, alpha:1.00),				//#F1703F
+	primaryBrandingColor = UIColor(red:0.31, green:0.90, blue:0.70, alpha:1.00),				//#50E6B4
 	placeholderTextColor = UIColor(red:0.63, green:0.67, blue:0.69, alpha:1.00),				//#A1AAAF
 	secondaryFillColor = UIColor(red:0.97, green:0.97, blue:0.98, alpha:1.00),					//Black haze or #F7F8F9
 	marketingTextColor = UIColor(red:0.73, green:0.75, blue:0.76, alpha:1.00),					//Silver Sand or #BCC0C2
