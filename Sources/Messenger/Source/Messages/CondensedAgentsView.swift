@@ -32,9 +32,11 @@ class CondensedAgentView: ASDisplayNode {
 	
 	func load(_ condensedAgentViewModel: CondensedAgentViewModel) {
 		
-        for node in self.subnodes! {
-			node.removeFromSupernode()
-		}
+        if let nodes = self.subnodes {
+            for node in nodes {
+                node.removeFromSupernode()
+            }
+        }
 		
 		self.avatarNodes = condensedAgentViewModel.agentAvatars.map {
 			let imageNode = ASNetworkImageNode()

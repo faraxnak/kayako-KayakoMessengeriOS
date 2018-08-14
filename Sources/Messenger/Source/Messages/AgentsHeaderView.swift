@@ -58,9 +58,11 @@ public class AgentsHeaderView: ASDisplayNode {
 	
 	func load(_ agentsHeaderModel: AgentsHeaderModel) {
 		
-        for node in self.subnodes! {
-			node.removeFromSupernode()
-		}
+        if let nodes = self.subnodes {
+            for node in nodes {
+                node.removeFromSupernode()
+            }
+        }
 		
 		self.avatarNodes = agentsHeaderModel.avatars.map {
 			let avatarImageNode = ASNetworkImageNode()
