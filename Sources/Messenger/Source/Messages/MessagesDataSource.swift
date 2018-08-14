@@ -409,7 +409,7 @@ open class MessagesDataSource: NSObject, ASTableDataSource, ASTableDelegate, Inp
 				let lastIndex = messagesDataContainer.botMessages.endIndex - 1
 				var newQuestion = textQuestion
 				newQuestion.value = email
-				if email.isEmail {
+				if email.isEmailKayako {
 					currentData["email"] = email
 					currentData["name"] = name
 					self.conversationState = .askingQuestions(queue, currentData: currentData)

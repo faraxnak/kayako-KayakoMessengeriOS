@@ -20,7 +20,7 @@ public struct UserLoginInfo {
 	public struct Email {
 		public let rawValue: String
 		init(string: String) throws {
-			if string.isEmail {
+			if string.isEmailKayako {
 				self.rawValue = string
 			} else {
 				throw EmailError.emailNotValid
