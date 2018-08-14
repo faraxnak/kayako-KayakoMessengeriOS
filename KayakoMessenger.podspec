@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks  = "UIKit"
   s.module_name  = "KayakoMessenger"
   s.ios.resource_bundle = { 'Kayako-Messenger' => 'Resources/**' }
-  s.dependency 'Texture'
+  s.dependency 'Texture', '~> 2.6'
   s.dependency 'Birdsong'
   s.dependency 'StatefulViewController'
   s.dependency 'NVActivityIndicatorView'
