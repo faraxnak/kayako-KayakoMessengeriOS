@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C738D1F28D17A7DE0CBC22C /* Pods_KayakoMessenger_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2856732348D3400823B1994 /* Pods_KayakoMessenger_iOS.framework */; };
+		3A6B6EF3829B57CE35FC32DA /* Pods_KayakoMessenger_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174ED4F3723455F9E114C148 /* Pods_KayakoMessenger_iOS_Tests.framework */; };
+		3C6384E5FAE8E47C641F3F9B /* Pods_MessengerExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E493598F4D121EC0E9FB0FF /* Pods_MessengerExampleUITests.framework */; };
 		420B19CB1FC41E8F00BCD10A /* BotQuestions.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420B19C91FC41E8F00BCD10A /* BotQuestions.strings */; };
 		423314D11F94C5EB0049D5B5 /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423314D01F94C5EB0049D5B5 /* PINCacheTexture.framework */; };
 		423881BB1F0EA39D002B2B0D /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238818A1F0EA39D002B2B0D /* Authorization.swift */; };
@@ -120,26 +123,6 @@
 		4238829B1F0EACC8002B2B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4238829A1F0EACC8002B2B0D /* Assets.xcassets */; };
 		4238829E1F0EACC8002B2B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4238829C1F0EACC8002B2B0D /* LaunchScreen.storyboard */; };
 		423882A91F0EACC9002B2B0D /* MessengerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423882A81F0EACC9002B2B0D /* MessengerExampleUITests.swift */; };
-		423882B11F0EAE8C002B2B0D /* Wrap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423881E81F0EA65C002B2B0D /* Wrap.framework */; };
-		423882B21F0EAE8C002B2B0D /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423881E71F0EA65C002B2B0D /* Unbox.framework */; };
-		423882B31F0EAE8C002B2B0D /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827D1F0EAAE5002B2B0D /* AsyncDisplayKit.framework */; };
-		423882B41F0EAE8C002B2B0D /* StatefulViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882841F0EAAE5002B2B0D /* StatefulViewController.framework */; };
-		423882B51F0EAE8C002B2B0D /* Birdsong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827E1F0EAAE5002B2B0D /* Birdsong.framework */; };
-		423882B61F0EAE8C002B2B0D /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882831F0EAAE5002B2B0D /* Starscream.framework */; };
-		423882B71F0EAE8C002B2B0D /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882811F0EAAE5002B2B0D /* PINOperation.framework */; };
-		423882B81F0EAE8C002B2B0D /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827F1F0EAAE5002B2B0D /* NVActivityIndicatorView.framework */; };
-		423882B91F0EAE8C002B2B0D /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882821F0EAAE5002B2B0D /* PINRemoteImage.framework */; };
-		423882BA1F0EAE8C002B2B0D /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882801F0EAAE5002B2B0D /* PINCache.framework */; };
-		423882BB1F0EAEB3002B2B0D /* Wrap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423881E81F0EA65C002B2B0D /* Wrap.framework */; };
-		423882BC1F0EAEB3002B2B0D /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423881E71F0EA65C002B2B0D /* Unbox.framework */; };
-		423882BD1F0EAEB3002B2B0D /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827D1F0EAAE5002B2B0D /* AsyncDisplayKit.framework */; };
-		423882BE1F0EAEB3002B2B0D /* StatefulViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882841F0EAAE5002B2B0D /* StatefulViewController.framework */; };
-		423882BF1F0EAEB3002B2B0D /* Birdsong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827E1F0EAAE5002B2B0D /* Birdsong.framework */; };
-		423882C01F0EAEB3002B2B0D /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882831F0EAAE5002B2B0D /* Starscream.framework */; };
-		423882C11F0EAEB3002B2B0D /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882811F0EAAE5002B2B0D /* PINOperation.framework */; };
-		423882C21F0EAEB3002B2B0D /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238827F1F0EAAE5002B2B0D /* NVActivityIndicatorView.framework */; };
-		423882C31F0EAEB3002B2B0D /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882821F0EAAE5002B2B0D /* PINRemoteImage.framework */; };
-		423882C41F0EAEB3002B2B0D /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423882801F0EAAE5002B2B0D /* PINCache.framework */; };
 		4241531D1F14E99A0005FF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4241531A1F14E99A0005FF2A /* Assets.xcassets */; };
 		4241531E1F14E99A0005FF2A /* TimeAgoInWords.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4241531B1F14E99A0005FF2A /* TimeAgoInWords.strings */; };
 		42F85F4C1F79FDED00938C0C /* KayakoMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* KayakoMessenger.framework */; };
@@ -147,6 +130,7 @@
 		52D6D9871BEFF229002C0205 /* KayakoMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* KayakoMessenger.framework */; };
 		8933C7851EB5B820000D00A4 /* KayakoMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* KayakoMessenger.swift */; };
 		8933C7901EB5B82D000D00A4 /* KayakoMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* KayakoMessengerTests.swift */; };
+		8C9EF154891B25ACFEDDB4F8 /* Pods_MessengerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA0F59FE7A7837DF27DDEE3 /* Pods_MessengerExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,8 +172,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		174ED4F3723455F9E114C148 /* Pods_KayakoMessenger_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayakoMessenger_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E493598F4D121EC0E9FB0FF /* Pods_MessengerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		420B19CA1FC41E8F00BCD10A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BotQuestions.strings; sourceTree = "<group>"; };
-		423314CF1F94C5CE0049D5B5 /* PINCacheTexture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCacheTexture.framework; path = "../../PINCache-Texture/Carthage/Build/iOS/PINCacheTexture.framework"; sourceTree = "<group>"; };
 		423314D01F94C5EB0049D5B5 /* PINCacheTexture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCacheTexture.framework; path = Carthage/Build/iOS/PINCacheTexture.framework; sourceTree = "<group>"; };
 		4238818A1F0EA39D002B2B0D /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		4238818B1F0EA39D002B2B0D /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -235,8 +220,6 @@
 		423881B81F0EA39D002B2B0D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		423881B91F0EA39D002B2B0D /* ResourceName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceName.swift; sourceTree = "<group>"; };
 		423881BA1F0EA39D002B2B0D /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		423881E71F0EA65C002B2B0D /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
-		423881E81F0EA65C002B2B0D /* Wrap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrap.framework; path = Carthage/Build/iOS/Wrap.framework; sourceTree = "<group>"; };
 		423881ED1F0EA7FC002B2B0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		423881F11F0EA81A002B2B0D /* ArrayDiff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDiff.swift; sourceTree = "<group>"; };
 		423881F21F0EA81A002B2B0D /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
@@ -299,14 +282,6 @@
 		4238823A1F0EA81A002B2B0D /* TextBarUpdateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBarUpdateDelegate.swift; sourceTree = "<group>"; };
 		4238823B1F0EA81A002B2B0D /* UIView+Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
 		4238823C1F0EA81A002B2B0D /* TestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
-		4238827D1F0EAAE5002B2B0D /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
-		4238827E1F0EAAE5002B2B0D /* Birdsong.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Birdsong.framework; path = Carthage/Build/iOS/Birdsong.framework; sourceTree = "<group>"; };
-		4238827F1F0EAAE5002B2B0D /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
-		423882801F0EAAE5002B2B0D /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
-		423882811F0EAAE5002B2B0D /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
-		423882821F0EAAE5002B2B0D /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
-		423882831F0EAAE5002B2B0D /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
-		423882841F0EAAE5002B2B0D /* StatefulViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StatefulViewController.framework; path = Carthage/Build/iOS/StatefulViewController.framework; sourceTree = "<group>"; };
 		423882911F0EACC8002B2B0D /* MessengerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423882931F0EACC8002B2B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423882951F0EACC8002B2B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -319,12 +294,22 @@
 		423882AA1F0EACC9002B2B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4241531A1F14E99A0005FF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4241531C1F14E99A0005FF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TimeAgoInWords.strings; sourceTree = "<group>"; };
+		52294F9257F1C283E769F8EF /* Pods-MessengerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessengerExample/Pods-MessengerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* KayakoMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KayakoMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* KayakoMessenger-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KayakoMessenger-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D19979BB9C3521A6BC58929 /* Pods-MessengerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessengerExample/Pods-MessengerExample.release.xcconfig"; sourceTree = "<group>"; };
+		6D9D669B08ABBBFA565041A0 /* Pods-KayakoMessenger-iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayakoMessenger-iOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KayakoMessenger-iOS Tests/Pods-KayakoMessenger-iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84AE0B4F0573C956B2302697 /* Pods-KayakoMessenger-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayakoMessenger-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KayakoMessenger-iOS/Pods-KayakoMessenger-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8933C7841EB5B820000D00A4 /* KayakoMessenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayakoMessenger.swift; sourceTree = "<group>"; };
 		8933C7891EB5B82A000D00A4 /* KayakoMessengerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayakoMessengerTests.swift; sourceTree = "<group>"; };
+		9B09C025573FDFF857665DA4 /* Pods-MessengerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessengerExampleUITests/Pods-MessengerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2856732348D3400823B1994 /* Pods_KayakoMessenger_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayakoMessenger_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA0F59FE7A7837DF27DDEE3 /* Pods_MessengerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2FAA261CD0B6D800659CF4 /* KayakoMessenger.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KayakoMessenger.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* KayakoMessengerTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KayakoMessengerTests.plist; sourceTree = "<group>"; };
+		BFCC56000D1620D67B3E8666 /* Pods-KayakoMessenger-iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayakoMessenger-iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KayakoMessenger-iOS Tests/Pods-KayakoMessenger-iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D7855DE740ED0B306BBED001 /* Pods-KayakoMessenger-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayakoMessenger-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KayakoMessenger-iOS/Pods-KayakoMessenger-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E54400F42F74765E88A8A8CB /* Pods-MessengerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessengerExampleUITests/Pods-MessengerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,17 +318,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				423314D11F94C5EB0049D5B5 /* PINCacheTexture.framework in Frameworks */,
-				423882BB1F0EAEB3002B2B0D /* Wrap.framework in Frameworks */,
-				423882BC1F0EAEB3002B2B0D /* Unbox.framework in Frameworks */,
-				423882BD1F0EAEB3002B2B0D /* AsyncDisplayKit.framework in Frameworks */,
-				423882BE1F0EAEB3002B2B0D /* StatefulViewController.framework in Frameworks */,
-				423882BF1F0EAEB3002B2B0D /* Birdsong.framework in Frameworks */,
 				42F85F4C1F79FDED00938C0C /* KayakoMessenger.framework in Frameworks */,
-				423882C01F0EAEB3002B2B0D /* Starscream.framework in Frameworks */,
-				423882C11F0EAEB3002B2B0D /* PINOperation.framework in Frameworks */,
-				423882C21F0EAEB3002B2B0D /* NVActivityIndicatorView.framework in Frameworks */,
-				423882C31F0EAEB3002B2B0D /* PINRemoteImage.framework in Frameworks */,
-				423882C41F0EAEB3002B2B0D /* PINCache.framework in Frameworks */,
+				8C9EF154891B25ACFEDDB4F8 /* Pods_MessengerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +327,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6384E5FAE8E47C641F3F9B /* Pods_MessengerExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,16 +335,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				423882B11F0EAE8C002B2B0D /* Wrap.framework in Frameworks */,
-				423882B21F0EAE8C002B2B0D /* Unbox.framework in Frameworks */,
-				423882B31F0EAE8C002B2B0D /* AsyncDisplayKit.framework in Frameworks */,
-				423882B41F0EAE8C002B2B0D /* StatefulViewController.framework in Frameworks */,
-				423882B51F0EAE8C002B2B0D /* Birdsong.framework in Frameworks */,
-				423882B61F0EAE8C002B2B0D /* Starscream.framework in Frameworks */,
-				423882B71F0EAE8C002B2B0D /* PINOperation.framework in Frameworks */,
-				423882B81F0EAE8C002B2B0D /* NVActivityIndicatorView.framework in Frameworks */,
-				423882B91F0EAE8C002B2B0D /* PINRemoteImage.framework in Frameworks */,
-				423882BA1F0EAE8C002B2B0D /* PINCache.framework in Frameworks */,
+				0C738D1F28D17A7DE0CBC22C /* Pods_KayakoMessenger_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D6D9871BEFF229002C0205 /* KayakoMessenger.framework in Frameworks */,
+				3A6B6EF3829B57CE35FC32DA /* Pods_KayakoMessenger_iOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +447,10 @@
 			children = (
 				423314D01F94C5EB0049D5B5 /* PINCacheTexture.framework */,
 				423881ED1F0EA7FC002B2B0D /* UIKit.framework */,
+				A2856732348D3400823B1994 /* Pods_KayakoMessenger_iOS.framework */,
+				174ED4F3723455F9E114C148 /* Pods_KayakoMessenger_iOS_Tests.framework */,
+				ACA0F59FE7A7837DF27DDEE3 /* Pods_MessengerExample.framework */,
+				3E493598F4D121EC0E9FB0FF /* Pods_MessengerExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -673,17 +646,6 @@
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
-				423314CF1F94C5CE0049D5B5 /* PINCacheTexture.framework */,
-				4238827D1F0EAAE5002B2B0D /* AsyncDisplayKit.framework */,
-				4238827E1F0EAAE5002B2B0D /* Birdsong.framework */,
-				4238827F1F0EAAE5002B2B0D /* NVActivityIndicatorView.framework */,
-				423882801F0EAAE5002B2B0D /* PINCache.framework */,
-				423882811F0EAAE5002B2B0D /* PINOperation.framework */,
-				423882821F0EAAE5002B2B0D /* PINRemoteImage.framework */,
-				423882831F0EAAE5002B2B0D /* Starscream.framework */,
-				423882841F0EAAE5002B2B0D /* StatefulViewController.framework */,
-				423881E71F0EA65C002B2B0D /* Unbox.framework */,
-				423881E81F0EA65C002B2B0D /* Wrap.framework */,
 				424153191F14E99A0005FF2A /* Resources */,
 				8933C7811EB5B7E0000D00A4 /* Sources */,
 				8933C7831EB5B7EB000D00A4 /* Tests */,
@@ -692,6 +654,7 @@
 				423882A71F0EACC9002B2B0D /* MessengerExampleUITests */,
 				52D6D97D1BEFF229002C0205 /* Products */,
 				423881EC1F0EA7FC002B2B0D /* Frameworks */,
+				A173F98815BEA9A6625C23CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -734,6 +697,21 @@
 			path = Tests/KayakoMessengerTests;
 			sourceTree = "<group>";
 		};
+		A173F98815BEA9A6625C23CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84AE0B4F0573C956B2302697 /* Pods-KayakoMessenger-iOS.debug.xcconfig */,
+				D7855DE740ED0B306BBED001 /* Pods-KayakoMessenger-iOS.release.xcconfig */,
+				6D9D669B08ABBBFA565041A0 /* Pods-KayakoMessenger-iOS Tests.debug.xcconfig */,
+				BFCC56000D1620D67B3E8666 /* Pods-KayakoMessenger-iOS Tests.release.xcconfig */,
+				52294F9257F1C283E769F8EF /* Pods-MessengerExample.debug.xcconfig */,
+				5D19979BB9C3521A6BC58929 /* Pods-MessengerExample.release.xcconfig */,
+				9B09C025573FDFF857665DA4 /* Pods-MessengerExampleUITests.debug.xcconfig */,
+				E54400F42F74765E88A8A8CB /* Pods-MessengerExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD7502721C68FC1B006590AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -767,11 +745,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423882AB1F0EACC9002B2B0D /* Build configuration list for PBXNativeTarget "MessengerExample" */;
 			buildPhases = (
+				314042828D1EF25FD16E3E22 /* [CP] Check Pods Manifest.lock */,
 				4238828D1F0EACC8002B2B0D /* Sources */,
 				4238828E1F0EACC8002B2B0D /* Frameworks */,
 				4238828F1F0EACC8002B2B0D /* Resources */,
 				423882C61F0EAEBC002B2B0D /* ShellScript */,
 				42F85F501F79FDED00938C0C /* Embed Frameworks */,
+				69784BA5C1E25741A672E192 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -787,6 +767,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423882AE1F0EACC9002B2B0D /* Build configuration list for PBXNativeTarget "MessengerExampleUITests" */;
 			buildPhases = (
+				1A160C32F221F334439CBE58 /* [CP] Check Pods Manifest.lock */,
 				423882A01F0EACC9002B2B0D /* Sources */,
 				423882A11F0EACC9002B2B0D /* Frameworks */,
 				423882A21F0EACC9002B2B0D /* Resources */,
@@ -805,6 +786,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "KayakoMessenger-iOS" */;
 			buildPhases = (
+				54947E33D50F4FF2051A9179 /* [CP] Check Pods Manifest.lock */,
 				52D6D9771BEFF229002C0205 /* Sources */,
 				52D6D9781BEFF229002C0205 /* Frameworks */,
 				52D6D9791BEFF229002C0205 /* Headers */,
@@ -823,9 +805,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "KayakoMessenger-iOS Tests" */;
 			buildPhases = (
+				9EC7A9695DAD3EB948594F5A /* [CP] Check Pods Manifest.lock */,
 				52D6D9821BEFF229002C0205 /* Sources */,
 				52D6D9831BEFF229002C0205 /* Frameworks */,
 				52D6D9841BEFF229002C0205 /* Resources */,
+				ED392A4CCD3C9F1A47FB5ED1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -927,6 +911,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A160C32F221F334439CBE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessengerExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314042828D1EF25FD16E3E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessengerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		423882C61F0EAEBC002B2B0D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -950,6 +970,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		54947E33D50F4FF2051A9179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayakoMessenger-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69784BA5C1E25741A672E192 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MessengerExample/Pods-MessengerExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Birdsong/Birdsong.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCacheTexture/PINCacheTexture.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/StatefulViewController/StatefulViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Wrap/Wrap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Birdsong.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCacheTexture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StatefulViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wrap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessengerExample/Pods-MessengerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC7A9695DAD3EB948594F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayakoMessenger-iOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED392A4CCD3C9F1A47FB5ED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KayakoMessenger-iOS Tests/Pods-KayakoMessenger-iOS Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Birdsong/Birdsong.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCacheTexture/PINCacheTexture.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/StatefulViewController/StatefulViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Wrap/Wrap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Birdsong.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCacheTexture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StatefulViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wrap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KayakoMessenger-iOS Tests/Pods-KayakoMessenger-iOS Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1150,6 +1282,7 @@
 /* Begin XCBuildConfiguration section */
 		423882AC1F0EACC9002B2B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52294F9257F1C283E769F8EF /* Pods-MessengerExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1173,6 +1306,7 @@
 		};
 		423882AD1F0EACC9002B2B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D19979BB9C3521A6BC58929 /* Pods-MessengerExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1196,6 +1330,7 @@
 		};
 		423882AF1F0EACC9002B2B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B09C025573FDFF857665DA4 /* Pods-MessengerExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1214,6 +1349,7 @@
 		};
 		423882B01F0EACC9002B2B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54400F42F74765E88A8A8CB /* Pods-MessengerExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1327,6 +1463,7 @@
 		};
 		52D6D9911BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AE0B4F0573C956B2302697 /* Pods-KayakoMessenger-iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -1355,6 +1492,7 @@
 		};
 		52D6D9921BEFF229002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7855DE740ED0B306BBED001 /* Pods-KayakoMessenger-iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -1382,6 +1520,7 @@
 		};
 		52D6D9941BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9D669B08ABBBFA565041A0 /* Pods-KayakoMessenger-iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/KayakoMessengerTests.plist;
@@ -1395,6 +1534,7 @@
 		};
 		52D6D9951BEFF229002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCC56000D1620D67B3E8666 /* Pods-KayakoMessenger-iOS Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/KayakoMessengerTests.plist;

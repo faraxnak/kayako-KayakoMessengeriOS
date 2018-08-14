@@ -1,0 +1,75 @@
+PODS:
+  - Birdsong (0.6.1):
+    - Starscream (= 3.0.2)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINCacheTexture (0.0.4):
+    - PINCache
+    - Texture
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - Starscream (3.0.2)
+  - StatefulViewController (3.0)
+  - Texture (2.7):
+    - Texture/PINRemoteImage (= 2.7)
+  - Texture/Core (2.7)
+  - Texture/PINRemoteImage (2.7):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Unbox (3.0.0)
+  - Wrap (3.0.0)
+
+DEPENDENCIES:
+  - Birdsong
+  - NVActivityIndicatorView
+  - PINCacheTexture
+  - StatefulViewController
+  - Texture
+  - Unbox
+  - Wrap
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Birdsong
+    - NVActivityIndicatorView
+    - PINCache
+    - PINCacheTexture
+    - PINOperation
+    - PINRemoteImage
+    - Starscream
+    - StatefulViewController
+    - Texture
+    - Unbox
+    - Wrap
+
+SPEC CHECKSUMS:
+  Birdsong: 7559da13eb8e4b6334f2df75ea8a1199d7bc4bc3
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINCacheTexture: d3112ffb987b47b59b3ec81112c3afc9f496f306
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
+  Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
+  Wrap: 918fdb5157e4f701f9503b2633752d6f94616f84
+
+PODFILE CHECKSUM: 428651267e7d84125ceaf5db30f2d6807eeb6e66
+
+COCOAPODS: 1.5.2
